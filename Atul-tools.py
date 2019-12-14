@@ -26,7 +26,7 @@ def main():
 	print "   [15] Get All Sniffing & Spoofing Modules Once"
 	print "   [16] Get All Other Modules Once\n"
 	print "   [17] Exit the Atul-tools\n"
-	Atul-tools = raw_input("lzmx > ")
+	Atul-tools = raw_input("Atul-T > ")
 	
 	if Atul-tools == "1" or Atul-tools == "01":
 		print "\n    [01] Nmap"
@@ -55,7 +55,7 @@ def main():
 		print "    [24] inther"
 		print "    [25] GINF\n"
 		print "    [00] Back to main menu\n"
-		infogathering = raw_input("lzmx > ")
+		infogathering = raw_input("Atul-T > ")
 		
 		if infogathering == "01" or infogathering == "1":
 			nmap()
