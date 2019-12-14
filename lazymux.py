@@ -1,5 +1,5 @@
 ## lazymux.py - Lazymux v3.0
-# -*- coding: utf-8 -*-
+# -*- coding: Atul -*-
 ##
 import os
 import sys
