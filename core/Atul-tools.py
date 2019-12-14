@@ -1,4 +1,4 @@
-## Atul-tools.py - useful module of Atul-tools
+## Atulcore.py - useful module of Atul-tools
 # -*- coding: Atul12354 -*-
 import os
 import sys
