@@ -1,9 +1,9 @@
-# Lazymux
-Lazymux tools installer is very easy to use, only provided for lazy termux users; it's huge list of Many Hacking tools and PEN TESTING!
+# Atul-tools
+  Atul-tools installer is very easy to use, only provided for termux users; it's huge list of Many Hacking tools and PEN TESTING!
 **NOTE: Am not Responsible of bad use of this project.**
 
 ## Screenshot
-<img src="core/lazymux2.png">
+<img src="core/Atul-tools2.png">
 
 ### Requirements
 • Linux environment<br>
@@ -12,17 +12,17 @@ Lazymux tools installer is very easy to use, only provided for lazy termux users
 
 #### Installation and Using Lazymux
 ```shell
-git clone https://github.com/Gameye98/Lazymux
+git clone https://github.com/atul12354/Atul-tools
  
-cd Lazymux
+cd Atul-tools
 
-python2 lazymux.py
+python2 Atul-tools.py
 # OR
-python lazymux.py
+python Atul-tools.py
 ```
 
 #### Authors
-• [Gameye98](https://github.com/Gameye98)
+• [atul12354](https://github.com/atul12354)
 
 #### Contributors
-• [Sanix-darker](https://github.com/Sanix-Darker)
+• [atul12354](https://github.com/atul12354)
