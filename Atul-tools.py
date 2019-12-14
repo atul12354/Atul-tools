@@ -1,5 +1,5 @@
 ## Atul-tools.py - Atul-tools v3.0
-# -*- coding: Atul -*-
+# -*- coding: utf-8 -*-
 ##
 import os
 import sys
