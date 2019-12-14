@@ -1,5 +1,5 @@
 ## Atulcore.py - useful module of Atul-tools
-# -*- coding: Atul12354 -*-
+# -*- coding: utf-8 -*-
 import os
 import sys
 import time
