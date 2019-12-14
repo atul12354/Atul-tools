@@ -1,4 +1,4 @@
-## lazymux.py - Lazymux v3.0
+## Atul-tools.py - Atul-tools v3.0
 # -*- coding: Atul -*-
 ##
 import os
@@ -25,10 +25,10 @@ def main():
 	print "   [14] Get All Exploitation Tools Modules Once"
 	print "   [15] Get All Sniffing & Spoofing Modules Once"
 	print "   [16] Get All Other Modules Once\n"
-	print "   [17] Exit the Lazymux\n"
-	lazymux = raw_input("lzmx > ")
+	print "   [17] Exit the Atul-tools\n"
+	Atul-tools = raw_input("Atul-T > ")
 	
-	if lazymux == "1" or lazymux == "01":
+	if Atul-tools == "1" or Atul-tools == "01":
 		print "\n    [01] Nmap"
 		print "    [02] Red Hawk"
 		print "    [03] D-Tect"
@@ -55,7 +55,7 @@ def main():
 		print "    [24] inther"
 		print "    [25] GINF\n"
 		print "    [00] Back to main menu\n"
-		infogathering = raw_input("lzmx > ")
+		infogathering = raw_input("Atul-T > ")
 		
 		if infogathering == "01" or infogathering == "1":
 			nmap()
@@ -114,7 +114,7 @@ def main():
 			timeout(2)
 			restart_program()
 	
-	elif lazymux == "2" or lazymux == "02":
+	elif Atul-tools == "2" or Atul-tools == "02":
 		print "\n    [01] Nmap"
 		print "    [02] AndroZenmap"
 		print "    [03] AstraNmap"
@@ -139,7 +139,7 @@ def main():
 		print "    [22] XAttacker"
 		print "    [23] OWScan\n"
 		print "    [00] Back to main menu\n"
-		vulnscan = raw_input("lzmx > ")
+		vulnscan = raw_input("Atul-T > ")
 		
 		if vulnscan == "01" or vulnscan == "1":
 			nmap()
@@ -194,7 +194,7 @@ def main():
 			timeout(2)
 			restart_program()
 	
-	elif lazymux == "3" or lazymux == "03":
+	elif Atul-tools == "3" or Atul-tools == "03":
 		print "\n    [01] Torshammer"
 		print "    [02] Slowloris"
 		print "    [03] Fl00d & Fl00d2"
@@ -207,7 +207,7 @@ def main():
 		print "    [10] santet-online\n"
 		print "    [11] DDosy"
 		print "    [00] Back to main menu\n"
-		stresstest = raw_input("lzmx > ")
+		stresstest = raw_input("Atul-T > ")
 		
 		if stresstest == "01" or stresstest == "1":
 			torshammer()
@@ -238,7 +238,7 @@ def main():
 			timeout(2)
 			restart_program()
 	
-	elif lazymux == "4" or lazymux == "04":
+	elif Atul-tools == "4" or Atul-tools == "04":
 		print "\n    [01] Hydra"
 		print "    [02] Facebook Brute Force"
 		print "    [03] Facebook Brute Force 2"
@@ -259,7 +259,7 @@ def main():
 		print "    [18] Hasherdotid"
 		print "    [19] SocialBox\n"
 		print "    [00] Back to main menu\n"
-		passtak = raw_input("lzmx > ")
+		passtak = raw_input("Atul-T > ")
 		
 		if passtak == "01" or passtak == "1":
 			hydra()
@@ -306,7 +306,7 @@ def main():
 			timeout(2)
 			restart_program()
 	
-	elif lazymux == "5" or lazymux == "05":
+	elif Atul-tools == "5" or Atul-tools == "05":
 		print "\n    [01] sqlmap"
 		print "    [02] Webdav"
 		print "    [03] xGans"
@@ -331,7 +331,7 @@ def main():
 		print "    [22] HPB"
 		print "    [23] inther\n"
 		print "    [00] Back to main menu\n"
-		webhack = raw_input("lzmx > ")
+		webhack = raw_input("Atul-T > ")
 		
 		if webhack == "01" or webhack == "1":
 			sqlmap()
@@ -385,7 +385,7 @@ def main():
 			print "\nERROR: Wrong Input"
 			timeout(2)
 			restart_program()
-	elif lazymux == "6" or lazymux == "06":
+	elif Atul-tools == "6" or Atul-tools == "06":
 		print "\n    [01] Metasploit"
 		print "    [02] commix"
 		print "    [03] sqlmap"
@@ -400,7 +400,7 @@ def main():
 		print "    [12] MSF-Pg"
 		print "    [13] Binary Exploitation\n"
 		print "    [00] Back to main menu\n"
-		exploitool = raw_input("lzmx > ")
+		exploitool = raw_input("Atul-T > ")
 		
 		if exploitool == "01" or exploitool == "1":
 			metasploit()
@@ -434,7 +434,7 @@ def main():
 			print "\nERROR: Wrong Input"
 			timeout(2)
 			restart_program()
-	elif lazymux == "7" or lazymux == "07":
+	elif Atul-tools == "7" or Atul-tools == "07":
 		print "\n    [01] KnockMail"
 		print "    [02] Spammer-Grab"
 		print "    [03] Hac"
@@ -443,7 +443,7 @@ def main():
 		print "    [06] santet-online"
 		print "    [07] SpazSMS\n"
 		print "    [00] Back to main menu\n"
-		sspoof = raw_input("lzmx > ")
+		sspoof = raw_input("Atul-T > ")
 		
 		if sspoof == "01" or sspoof == "1":
 			knockmail()
@@ -466,7 +466,7 @@ def main():
 			timeout(2)
 			restart_program()
 	
-	elif lazymux == "8" or lazymux == "08":
+	elif Atul-tools == "8" or Atul-tools == "08":
 		print "\n    [01] SpiderBot"
 		print "    [02] Ngrok"
 		print "    [03] Sudo"
@@ -483,7 +483,7 @@ def main():
 		print "    [14] TouchUrl"
 		print "    [15] Textr\n"
 		print "    [00] Back to main menu\n"
-		moretool = raw_input("lzmx > ")
+		moretool = raw_input("Atul-T > ")
 		
 		if moretool == "01" or moretool == "1":
 			spiderbot()
@@ -521,24 +521,24 @@ def main():
 			print "\nERROR: Wrong Input"
 			timeout(2)
 			restart_program()
-	
-	elif lazymux == "9" or lazymux == "09":
+
+	elif Atul-tools == "9" or Atul-tools == "09":
 		getAllModule("Information_Gathering")
-	elif lazymux == "10":
+	elif Atul-tools == "10":
 		getAllModule("Vulnerability_Scanner")
-	elif lazymux == "11":
+	elif Atul-tools == "11":
 		getAllModule("Stress_Testing")
-	elif lazymux == "12":
+	elif Atul-tools == "12":
 		getAllModule("Password_Attacks")
-	elif lazymux == "13":
+	elif Atul-tools == "13":
 		getAllModule("Web_Hacking")
-	elif lazymux == "14":
+	elif Atul-tools == "14":
 		getAllModule("Exploitation_Tools")
-	elif lazymux == "15":
+	elif Atul-tools == "15":
 		getAllModule("Sniffing_and_Spoofing")
-	elif lazymux == "16":
+	elif Atul-tools == "16":
 		getAllModule("Other")
-	elif lazymux == "17":
+	elif Atul-tools == "17":
 		sys.exit()
 	
 	else:
