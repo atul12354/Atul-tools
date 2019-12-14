@@ -1,10 +1,10 @@
-## lzmcore.py - useful module of Lazymux
-# -*- coding: utf-8 -*-
+## Atul-tools.py - useful module of Atul-tools
+# -*- coding: Atul12354 -*-
 import os
 import sys
 import time
 
-lazymux_banner = """
+Atul-tools_banner = """
 .-.                                           
 : :                                           
 : :    .--.  .---. .-..-.,-.,-.,-..-..-..-.,-.
@@ -15,7 +15,7 @@ lazymux_banner = """
 """
 backtomenu_banner = """
   [99] Back to main menu
-  [00] Exit the Lazymux
+  [00] Exit the Atul-tools
 """
 allmodule = 0
 def install_pacakage(installer, packs):
@@ -37,7 +37,7 @@ def backtomenu_option():
 	if(allmodule == 0):
 		print '###### Done'
 		print backtomenu_banner
-		backtomenu = raw_input("lzmx > ")
+		backtomenu = raw_input("Atul-T > ")
 		
 		if backtomenu == "99":
 			restart_program()
@@ -52,7 +52,7 @@ def backtomenu_option():
 		print '###### Processing...\n'
 
 def banner():
-	print lazymux_banner
+	print Atul-tools_banner
 
 def nmap():
 	print '\n###### Installing Nmap'
@@ -854,7 +854,7 @@ def getAllModule(category):
 	global allmodule
 	allmodule = 1
 	if category == "Information_Gathering":
-		print "### Installing all Information_Gathering Modules on LazyMux\n"
+		print "### Installing all Information_Gathering Modules on Atul-tools\n"
 		os.system('rm -rf Information_Gathering && mkdir Information_Gathering')
 		os.system('mv Information_Gathering ~')
 		os.system('cd ~/Information_Gathering')
@@ -884,7 +884,7 @@ def getAllModule(category):
 		inther()
 		ginf()
 	elif category == "Vulnerability_Scanner":
-		print "###  Installing all Vulnerability_Scanner Modules on LazyMux \n"
+		print "###  Installing all Vulnerability_Scanner Modules on Atul-tools \n"
 		os.system('rm -rf Vulnerability_Scanner && mkdir Vulnerability_Scanner')
 		os.system('mv Vulnerability_Scanner ~')
 		os.system('cd ~/Vulnerability_Scanner')
@@ -912,7 +912,7 @@ def getAllModule(category):
 		xattacker()
 		owscan()
 	elif category == "Stress_Testing":
-		print "### Installing all Stress_Testing Modules on LazyMux ...\n"
+		print "### Installing all Stress_Testing Modules on Atul-tools ...\n"
 		os.system('rm -rf Stress_Testing && mkdir Stress_Testing ')
 		os.system('mv Stress_Testing ~')
 		os.system('cd ~/Stress_Testing')
@@ -928,7 +928,7 @@ def getAllModule(category):
 		sanlen()
 		DDosy()
 	elif category == "Password_Attacks":
-		print "   Installing all Password_Attacks Modules on LazyMux \n"
+		print "   Installing all Password_Attacks Modules on Atul-tools \n"
 		os.system('rm -rf Password_Attacks && mkdir Password_Attacks')
 		os.system('mv Password_Attacks ~')
 		os.system('cd ~/Password_Attacks')
@@ -952,7 +952,7 @@ def getAllModule(category):
 		hasherdotid()
 		SocialBox()
 	elif category == "Web_Hacking":
-		print "### Installing all Web_Hacking Modules on LazyMux \n"
+		print "### Installing all Web_Hacking Modules on Atul-tools \n"
 		os.system('rm -rf Web_Hacking && mkdir Web_Hacking ')
 		os.system('mv Web_Hacking ~')
 		os.system('cd ~/Web_Hacking')
@@ -980,7 +980,7 @@ def getAllModule(category):
 		hpb()
 		inther()
 	elif category == "Exploitation_Tools":
-		print "### Installing all Exploitation_Tools Modules on LazyMux \n"
+		print "### Installing all Exploitation_Tools Modules on Atul-tools \n"
 		os.system('rm -rf Exploitation_Tools && mkdir Exploitation_Tools')
 		os.system('mv Exploitation_Tools ~')
 		os.system('cd ~/Exploitation_Tools')
@@ -998,7 +998,7 @@ def getAllModule(category):
 		msfpg() 
 		binploit()
 	elif category == "Sniffing_and_Spoofing":
-		print "### Installing all Sniffing_and_Spoofing Modules on LazyMux \n"
+		print "### Installing all Sniffing_and_Spoofing Modules on Atul-tools \n"
 		os.system('rm -rf Sniffing_and_Spoofing && mkdir Sniffing_and_Spoofing')
 		os.system('mv Sniffing_and_Spoofing ~')
 		os.system('cd ~/Sniffing_and_Spoofing')
@@ -1010,7 +1010,7 @@ def getAllModule(category):
 		sanlen()
 		spazsms()
 	elif category == "Other":
-		print "### Installing all Other Modules on LazyMux\n"
+		print "### Installing all Other Modules on Atul-tools\n"
 		os.system('rm -rf Other && mkdir Other')
 		os.system('mv Other ~')
 		os.system('cd ~/Other')
